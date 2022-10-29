@@ -1,1 +1,0 @@
-console.log("VWallet is great");
