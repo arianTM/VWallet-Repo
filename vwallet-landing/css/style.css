@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
 
 :root {
   --regular: 400;
-  --bold: 800;
+  --bold: 600;
   /* Sizes */
-  --headline-size: 62px;
+  --headline-size-lg: 62px;
+  --headline-size: 50px;
   --headline2-size: 40;
   --headline3-size: 32px;
   --headline4-size: 18px;
@@ -13,7 +14,8 @@
   --paragraph-size: 18px;
   --mini-paragraph-size: 12px;
   /* Line heights */
-  --headline-line-height: 75px;
+  --headline-line-height-lg: 75px;
+  --headline-line-height: 65px;
   --headline2-line-height: 40px;
   --headline3-line-height: 30px;
   --headline4-line-height: 20px;
@@ -40,5 +42,32 @@
 }
 
 html {
-  font: var(--regular) var(--lead-paragraph-size)/var(--lead-paragraph-line-height) Sen, sans-serif;
+  font: var(--regular) var(--lead-paragraph-size) /
+      var(--lead-paragraph-line-height) Sen,
+    sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-primary {
+  width: auto;
+  height: 50px;
+  padding: 0px 17px;
+  border: none;
+  border-radius: 15px;
+  background-color: var(--primary);
+  color: var(--white);
+  font: var(--bold) var(--paragraph-size) / var(--paragraph-line-height) Sen;
+  transition: background-color 0.2s;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  -ms-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary);
 }
