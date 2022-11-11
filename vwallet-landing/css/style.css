@@ -3,10 +3,11 @@
 :root {
   --regular: 400;
   --bold: 600;
+  --extra-bold: 800;
   /* Sizes */
   --headline-size-lg: 62px;
   --headline-size: 50px;
-  --headline2-size: 40;
+  --headline2-size: 40px;
   --headline3-size: 32px;
   --headline4-size: 18px;
   --headline5-size: 16px;
