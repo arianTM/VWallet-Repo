@@ -3,6 +3,7 @@
 }
 
 .benefits-title {
+  font: var(--bold) var(--headline2-size)/var(--headline2-line-height) Sen;
   margin: 3.3rem 0 2rem;
   text-align: center;
 }
