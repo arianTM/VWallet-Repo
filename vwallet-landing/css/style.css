@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+:root {
+  --regular: 400;
+  --bold: 800;
+  /* Sizes */
+  --headline-size: 62px;
+  --headline2-size: 40;
+  --headline3-size: 32px;
+  --headline4-size: 18px;
+  --headline5-size: 16px;
+  --lead-paragraph-size: 24px;
+  --paragraph-size: 18px;
+  --mini-paragraph-size: 12px;
+  /* Line heights */
+  --headline-line-height: 75px;
+  --headline2-line-height: 40px;
+  --headline3-line-height: 30px;
+  --headline4-line-height: 20px;
+  --headline5-line-height: 20px;
+  --lead-paragraph-line-height: 30px;
+  --paragraph-line-height: 18px;
+  --mini-paragraph-line-height: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: var(--regular) var(--lead-paragraph-size)/var(--lead-paragraph-line-height) Sen, sans-serif;
+}
