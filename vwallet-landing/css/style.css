@@ -21,6 +21,16 @@
   --lead-paragraph-line-height: 30px;
   --paragraph-line-height: 18px;
   --mini-paragraph-line-height: 12px;
+  /* Colors */
+  --black: #222222;
+  --grey: #525252;
+  --primary: #ee7200;
+  --secondary: #cf6300;
+  --white: #f9f9f9;
+  --alert: #1976d2;
+  --caution: #ffde03;
+  --warning: #e53935;
+  --success: #20c788;
 }
 
 * {
