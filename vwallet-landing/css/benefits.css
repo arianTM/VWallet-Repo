@@ -3,7 +3,8 @@
 }
 
 .benefits-title {
-  font: var(--bold) var(--headline2-size)/var(--headline2-line-height) var(--font-family);
+  font: var(--bold) var(--headline2-size) / var(--headline2-line-height)
+    var(--font-family);
   margin: 3.3rem 0 2rem;
   text-align: center;
 }
@@ -43,7 +44,8 @@
   margin: 1rem 0 1.5rem;
 }
 
-.benefits-paragraph, .benefit-description {
-  font: var(--paragraph-size)/var(--paragraph-line-height) var(--font-family);
+.benefits-paragraph,
+.benefit-description {
+  font: var(--paragraph-size) / var(--paragraph-line-height) var(--font-family);
   text-align: justify;
 }

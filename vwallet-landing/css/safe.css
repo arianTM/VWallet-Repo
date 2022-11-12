@@ -1,7 +1,12 @@
 .safe {
   color: var(--white);
   height: 800px;
-  background-image: linear-gradient(-135deg, rgba(54, 54, 54, 0.90), rgba(0, 0, 0, 0.3)), url('../imgs/home/safe-img.jpg');
+  background-image: linear-gradient(
+      -135deg,
+      rgba(54, 54, 54, 0.9),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../imgs/home/safe-img.jpg");
   background-size: cover;
 }
 
@@ -16,16 +21,19 @@
 
 .safe-title {
   text-align: right;
-  font: var(--bold) var(--headline-size-lg)/var(--headline-line-height-lg) var(--font-family);
+  font: var(--bold) var(--headline-size-lg) / var(--headline-line-height-lg)
+    var(--font-family);
 }
 
 .safe-paragraph {
   text-align: right;
-  font: var(--regular) var(--lead-paragraph-size)/var(--lead-paragraph-line-height) var(--font-family);
+  font: var(--regular) var(--lead-paragraph-size) /
+    var(--lead-paragraph-line-height) var(--font-family);
 }
 
-@media(max-width: 992px) {
+@media (max-width: 992px) {
   .safe-title {
-    font: var(--bold) var(--headline-size)/var(--headline-line-height) var(--font-family);
+    font: var(--bold) var(--headline-size) / var(--headline-line-height)
+      var(--font-family);
   }
 }

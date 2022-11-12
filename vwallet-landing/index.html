@@ -49,11 +49,17 @@
         src="imgs/logo/LOGO-transparente-negro.png"
         alt="Logo de VWallet"
       />
-      <ul class="header-menu">
-        <li><a class="header-menu-link" href="index.html">Inicio</a></li>
-        <li><a class="header-menu-link" href="about-us.html">Acerca de</a></li>
-        <li><a class="header-menu-link" href="contact.html">Contáctanos</a></li>
-      </ul>
+      <nav>
+        <ul class="header-menu">
+          <li><a class="header-menu-link" href="index.html">Inicio</a></li>
+          <li>
+            <a class="header-menu-link" href="about-us.html">Acerca de</a>
+          </li>
+          <li>
+            <a class="header-menu-link" href="contact.html">Contáctanos</a>
+          </li>
+        </ul>
+      </nav>
       <div class="header-menu-bar">
         <div class="open-menu active"><i class="fas fa-solid fa-bars"></i></div>
         <div class="close-menu"><i class="fas fa-solid fa-close"></i></div>
@@ -125,7 +131,9 @@
           JABEL tiene una asociación con la UPC para vincular el sistema de
           pagos del aplicativo con el de la plataforma de la universidad.
         </p>
-        <button class="safe-btn btn-primary">Acerca de nosotros</button>
+        <a href="about-us.html"
+          ><button class="safe-btn btn-primary">Acerca de nosotros</button></a
+        >
       </div>
     </section>
     <section class="services container-fluid">
@@ -286,7 +294,7 @@
           <p class="footer-description">©Copyright 2022. VWallet.</p>
         </div>
         <div class="footer-2nd">
-          <div class="social-media">
+          <nav class="social-media">
             <a target="_blank" href="https://www.facebook.com/"
               ><i
                 class="social-media-icon fa fa-facebook d-block"
@@ -305,8 +313,8 @@
                 aria-hidden="true"
               ></i
             ></a>
-          </div>
-          <div class="footer-link-container">
+          </nav>
+          <nav class="footer-link-container">
             <a
               class="footer-link"
               target="_blank"
@@ -319,7 +327,7 @@
               href="https://politicadeprivacidadplantilla.com/"
               >Política de cookies</a
             >
-          </div>
+          </nav>
         </div>
       </div>
     </footer>

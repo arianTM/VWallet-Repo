@@ -4,12 +4,14 @@
 
 .testimony-title {
   text-align: center;
-  font: var(--bold) var(--headline2-size)/var(--headline2-line-height) var(--font-family);
+  font: var(--bold) var(--headline2-size) / var(--headline2-line-height)
+    var(--font-family);
   margin: 3.3rem 0 2rem;
 }
 
 .testimony-paragraph {
-  font: var(--regular) var(--lead-paragraph-size)/var(--lead-paragraph-line-height) var(--font-family);
+  font: var(--regular) var(--lead-paragraph-size) /
+    var(--lead-paragraph-line-height) var(--font-family);
   text-align: center;
 }
 
@@ -25,7 +27,7 @@
   width: 100%;
   height: 100%;
   display: none;
-  color: #FFF;
+  color: #fff;
 }
 
 .carousel-item {
@@ -33,7 +35,6 @@
 }
 
 .carousel-image {
-  
   height: 100%;
 }
 
@@ -42,25 +43,27 @@
 }
 
 .carousel-caption {
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 2rem;
 }
 
 .carousel-caption > h3 {
-  font: var(--bold) var(--headline3-size)/var(--headline3-line-height) var(--font-family);
+  font: var(--bold) var(--headline3-size) / var(--headline3-line-height)
+    var(--font-family);
 }
 
 .carousel-caption > p {
-  font: var(--regular) var(--paragraph-size)/var(--paragraph-line-height) var(--font-family);
+  font: var(--regular) var(--paragraph-size) / var(--paragraph-line-height)
+    var(--font-family);
 }
 
-@media(max-width: 992px) {
+@media (max-width: 992px) {
   .carousel-item {
     height: 450px;
   }
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .carousel-item {
     height: 300px;
   }

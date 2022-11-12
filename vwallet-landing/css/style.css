@@ -2,7 +2,7 @@
 
 :root {
   /* Font family */
-  --font-family: 'Sen', sans-serif;
+  --font-family: "Sen", sans-serif;
   /* Font weight */
   --regular: 400;
   --bold: 600;
@@ -52,7 +52,7 @@
 
 html {
   font: var(--regular) var(--lead-paragraph-size) /
-      var(--lead-paragraph-line-height) var(--font-family);
+    var(--lead-paragraph-line-height) var(--font-family);
 }
 
 img {
@@ -68,7 +68,8 @@ img {
   border-radius: 15px;
   background-color: var(--primary);
   color: var(--white);
-  font: var(--bold) var(--paragraph-size) / var(--paragraph-line-height) var(--font-family);
+  font: var(--bold) var(--paragraph-size) / var(--paragraph-line-height)
+    var(--font-family);
   transition: background-color 0.2s;
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;

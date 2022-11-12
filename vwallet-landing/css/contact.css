@@ -10,8 +10,10 @@
   gap: 2rem;
 }
 
-.contact-1st > h2, .contact-2nd > h2 {
-  font: var(--bold) var(--headline2-size) / var(--headline2-line-height) var(--font-family);
+#contact-1st > h2,
+#contact-2nd > h2 {
+  font: var(--bold) var(--headline2-size) / var(--headline2-line-height)
+    var(--font-family);
 }
 
 .contact-form {
@@ -19,14 +21,14 @@
 }
 
 .inputBox {
-  margin: .5rem;
+  margin: 0.5rem;
   position: relative;
 }
 
-.inputBox > input{
+.inputBox > input {
   width: 100%;
   padding: 10px;
-  margin: .3rem 0;
+  margin: 0.3rem 0;
   background: none;
   border: 1px solid var(--primary);
   border-radius: 5px;
@@ -36,7 +38,8 @@
   -o-border-radius: 5px;
   outline: none;
   color: var(--black);
-  font: var(--regular) var(--lead-paragraph-size) / var(--lead-paragraph-line-height) var(--font-family);
+  font: var(--regular) var(--lead-paragraph-size) /
+    var(--lead-paragraph-line-height) var(--font-family);
 }
 
 .inputBox span {
@@ -45,12 +48,13 @@
   left: 0;
   padding: 18px 10px;
   pointer-events: none;
-  font: var(--regular) var(--lead-paragraph-size) / var(--lead-paragraph-line-height) var(--font-family);
-  transition: .2s;
-  -webkit-transition: .2s;
-  -moz-transition: .2s;
-  -ms-transition: .2s;
-  -o-transition: .2s;
+  font: var(--regular) var(--lead-paragraph-size) /
+    var(--lead-paragraph-line-height) var(--font-family);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
 }
 
 .inputBox input:valid ~ span,
@@ -61,11 +65,11 @@
   -moz-transform: translateX(10px) translateY(-7px);
   -ms-transform: translateX(10px) translateY(-7px);
   -o-transform: translateX(10px) translateY(-7px);
-  font-size: .65em;
+  font-size: 0.65em;
   padding: 0 10px;
   background-color: var(--white);
 }
 
 input[type="submit"] {
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
 }

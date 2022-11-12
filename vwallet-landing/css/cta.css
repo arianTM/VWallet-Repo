@@ -13,8 +13,8 @@
   display: block;
   width: 500px;
   height: 500px;
- /*  background-color: red; */
-  background-image: url('../imgs/home/cta-img.png');
+  /*  background-color: red; */
+  background-image: url("../imgs/home/cta-img.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -34,13 +34,15 @@
 }
 
 .cta-title {
-  font: var(--bold) var(--headline2-size)/var(--headline2-line-height) var(--font-family);
+  font: var(--bold) var(--headline2-size) / var(--headline2-line-height)
+    var(--font-family);
   color: var(--white);
   text-align: center;
   margin: 1rem 0;
 }
 
-.cta-android, .cta-ios {
+.cta-android,
+.cta-ios {
   width: 240px;
   height: 80px;
   border-radius: 15px;
@@ -54,28 +56,29 @@
 }
 
 .cta-android {
-  background-image: url('../imgs/home/cta-android-download.png');
+  background-image: url("../imgs/home/cta-android-download.png");
 }
 
 .cta-ios {
-  background-image: url('../imgs/home/cta-ios-download.png');
+  background-image: url("../imgs/home/cta-ios-download.png");
 }
 
 .cta-paragraph {
   color: var(--primary);
-  font: var(--bold) var(--lead-paragraph-size)/var(--lead-paragraph-line-height) var(--font-family);
+  font: var(--bold) var(--lead-paragraph-size) /
+    var(--lead-paragraph-line-height) var(--font-family);
   text-align: center;
   margin-top: 1rem;
 }
 
-@media(min-width: 992px) {
+@media (min-width: 992px) {
   .cta-download-os {
     display: flex;
     gap: 1rem;
   }
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .cta-img {
     display: none;
   }
