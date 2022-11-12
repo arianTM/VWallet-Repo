@@ -1,0 +1,27 @@
+.contact-elements {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.contact-1st, .contact-2nd {
+}
+
+.contact-1st > h2, .contact-2nd > h2 {
+  font: var(--bold) var(--headline2-size) / var(--headline2-line-height) var(--font-family);
+}
+
+.contact-form {
+  margin: 1rem 0 2rem;
+}
+
+.contact-form > input[type="text"], .contact-form > input[type="email"]{
+  width: 100%;
+  margin: .3rem 0;
+}
+
+.contact-form > input[type="submit"] {
+  margin-top: 1.5rem;
+}
