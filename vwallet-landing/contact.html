@@ -89,9 +89,18 @@
         <h2>Formulario de soporte</h2>
         <p>¡Envíanos un mensaje y te responderemos lo más pronto posible!</p>
         <form class="contact-form" action="" method="get">
-          <input type="text" name="name" placeholder="Ingresa tu nombre" required>
-          <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
-          <input type="text" name="msg" placeholder="Ingresa tu mensaje" required>
+          <div class="inputBox">
+            <input type="text" name="name"required>
+            <span>Nombre</span>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="email" required>
+            <span>Email</span>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="msg" required>
+            <span>Mensaje</span>
+          </div>
           <input class="btn-primary" type="submit" value="Enviar">
         </form>
       </div>

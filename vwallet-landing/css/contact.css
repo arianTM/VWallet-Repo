@@ -1,12 +1,13 @@
+.contact {
+  background-color: var(--white);
+}
+
 .contact-elements {
   padding-top: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 2rem;
-}
-
-.contact-1st, .contact-2nd {
 }
 
 .contact-1st > h2, .contact-2nd > h2 {
@@ -17,11 +18,54 @@
   margin: 1rem 0 2rem;
 }
 
-.contact-form > input[type="text"], .contact-form > input[type="email"]{
-  width: 100%;
-  margin: .3rem 0;
+.inputBox {
+  margin: .5rem;
+  position: relative;
 }
 
-.contact-form > input[type="submit"] {
+.inputBox > input{
+  width: 100%;
+  padding: 10px;
+  margin: .3rem 0;
+  background: none;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  outline: none;
+  color: var(--black);
+  font: var(--regular) var(--lead-paragraph-size) / var(--lead-paragraph-line-height) var(--font-family);
+}
+
+.inputBox span {
+  color: var(--grey);
+  position: absolute;
+  left: 0;
+  padding: 18px 10px;
+  pointer-events: none;
+  font: var(--regular) var(--lead-paragraph-size) / var(--lead-paragraph-line-height) var(--font-family);
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span {
+  color: var(--primary);
+  transform: translateX(10px) translateY(-7px);
+  -webkit-transform: translateX(10px) translateY(-7px);
+  -moz-transform: translateX(10px) translateY(-7px);
+  -ms-transform: translateX(10px) translateY(-7px);
+  -o-transform: translateX(10px) translateY(-7px);
+  font-size: .65em;
+  padding: 0 10px;
+  background-color: var(--white);
+}
+
+input[type="submit"] {
   margin-top: 1.5rem;
 }

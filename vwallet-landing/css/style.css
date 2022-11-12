@@ -45,6 +45,11 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
 html {
   font: var(--regular) var(--lead-paragraph-size) /
       var(--lead-paragraph-line-height) var(--font-family);
