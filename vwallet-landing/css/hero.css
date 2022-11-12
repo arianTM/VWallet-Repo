@@ -14,15 +14,15 @@
 }
 
 .hero-title {
-  font: var(--bold) var(--headline-size-lg)/var(--headline-line-height-lg) Sen;
+  font: var(--bold) var(--headline-size-lg)/var(--headline-line-height-lg) var(--font-family);
 }
 
 .hero-paragraph {
-  font: var(--regular) var(--lead-paragraph-size)/var(--lead-paragraph-line-height) Sen;
+  font: var(--regular) var(--lead-paragraph-size)/var(--lead-paragraph-line-height) var(--font-family);
 }
 
 @media(max-width: 992px) {
   .hero-title {
-    font: var(--bold) var(--headline-size)/var(--headline-line-height) Sen;
+    font: var(--bold) var(--headline-size)/var(--headline-line-height) var(--font-family);
   }
 }

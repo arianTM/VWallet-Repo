@@ -4,12 +4,12 @@
 
 .testimony-title {
   text-align: center;
-  font: var(--bold) var(--headline2-size)/var(--headline2-line-height) Sen;
+  font: var(--bold) var(--headline2-size)/var(--headline2-line-height) var(--font-family);
   margin: 3.3rem 0 2rem;
 }
 
 .testimony-paragraph {
-  font: var(--regular) var(--lead-paragraph-size)/var(--lead-paragraph-line-height) Sen;
+  font: var(--regular) var(--lead-paragraph-size)/var(--lead-paragraph-line-height) var(--font-family);
   text-align: center;
 }
 
@@ -47,11 +47,11 @@
 }
 
 .carousel-caption > h3 {
-  font: var(--bold) var(--headline3-size)/var(--headline3-line-height) Sen;
+  font: var(--bold) var(--headline3-size)/var(--headline3-line-height) var(--font-family);
 }
 
 .carousel-caption > p {
-  font: var(--regular) var(--paragraph-size)/var(--paragraph-line-height) Sen;
+  font: var(--regular) var(--paragraph-size)/var(--paragraph-line-height) var(--font-family);
 }
 
 @media(max-width: 992px) {

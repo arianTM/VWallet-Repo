@@ -3,7 +3,7 @@
 }
 
 .services-title {
-  font: var(--bold) var(--headline2-size)/var(--headline2-line-height) Sen;
+  font: var(--bold) var(--headline2-size)/var(--headline2-line-height) var(--font-family);
   margin: 3.3rem 0 2rem;
   text-align: center;
 }
@@ -55,7 +55,7 @@
 
 .service-title {
   margin: 1rem 0 .5rem;
-  font: var(--bold) var(--headline3-size)/var(--headline3-line-height) Sen;
+  font: var(--bold) var(--headline3-size)/var(--headline3-line-height) var(--font-family);
   text-align: center;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .services-paragraph, .service-description {
-  font: var(--paragraph-size)/var(--paragraph-line-height) Sen;
+  font: var(--paragraph-size)/var(--paragraph-line-height) var(--font-family);
   text-align: justify;
 }
 

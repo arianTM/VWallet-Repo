@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
 
 :root {
+  /* Font family */
+  --font-family: 'Sen', sans-serif;
+  /* Font weight */
   --regular: 400;
   --bold: 600;
   --extra-bold: 800;
-  /* Sizes */
+  /* Font sizes */
   --headline-size-lg: 62px;
   --headline-size: 50px;
   --headline2-size: 40px;
@@ -14,7 +17,7 @@
   --lead-paragraph-size: 24px;
   --paragraph-size: 18px;
   --mini-paragraph-size: 12px;
-  /* Line heights */
+  /* Font line heights */
   --headline-line-height-lg: 75px;
   --headline-line-height: 65px;
   --headline2-line-height: 40px;
@@ -44,8 +47,7 @@
 
 html {
   font: var(--regular) var(--lead-paragraph-size) /
-      var(--lead-paragraph-line-height) Sen,
-    sans-serif;
+      var(--lead-paragraph-line-height) var(--font-family);
 }
 
 img {
@@ -61,7 +63,7 @@ img {
   border-radius: 15px;
   background-color: var(--primary);
   color: var(--white);
-  font: var(--bold) var(--paragraph-size) / var(--paragraph-line-height) Sen;
+  font: var(--bold) var(--paragraph-size) / var(--paragraph-line-height) var(--font-family);
   transition: background-color 0.2s;
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
