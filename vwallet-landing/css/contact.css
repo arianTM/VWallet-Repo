@@ -70,6 +70,6 @@
   background-color: var(--white);
 }
 
-input[type="submit"] {
+.form-2nd-button {
   margin-top: 0.5rem;
 }

@@ -13,6 +13,13 @@
     var(--lead-paragraph-line-height) var(--font-family);
 }
 
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+}
+
 .header-menu {
   margin-bottom: 0;
   list-style-type: none;
@@ -54,7 +61,7 @@
   height: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .header-menu-bar {
     display: block;
   }
